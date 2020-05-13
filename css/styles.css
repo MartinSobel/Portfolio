@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #aaaeb3;
   text-align: left;
-  background-color: #fff;
+  background-color: #161b29;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -5450,7 +5450,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #1b2233;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -6067,7 +6067,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #2b313e !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7594,6 +7594,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  font-size: 1.5rem;
 }
 
 .ml-5,
@@ -9744,7 +9745,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #a9a9a9 !important;
 }
 
 .text-primary {
@@ -9756,7 +9757,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #2c3e50 !important;
+  color: #9dacbb !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9990,10 +9991,10 @@ h3 {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #3a4152;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #3a4152 !important;
 }
 
 .btn-xl {
@@ -10068,11 +10069,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #202f3e;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #202f3e;
   }
 
   #mainNav.navbar-shrink {
@@ -10125,10 +10126,10 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgb(96, 116, 138);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
@@ -10210,4 +10211,9 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.way{
+  text-align: center;
+  padding-bottom: 2rem;
 }
